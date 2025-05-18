@@ -1,0 +1,4 @@
+deepseek/deepseek-v3-base:free
+meta-llama/llama-3.3-8b-instruct:free
+qwen/qwen3-4b:free
+tngtech/deepseek-r1t-chimera:free
