@@ -14,38 +14,39 @@ The most powerful command-line interface for OpenRouter.ai, featuring:
 ### Linux/macOS (Bash)
 ```bash
 curl -sSL https://raw.githubusercontent.com/yourusername/anonai-cli/main/setup.sh | bash
-
+```
 Windows (PowerShell)
 powershell
-
+```
 irm https://raw.githubusercontent.com/yourusername/anonai-cli/main/setup.ps1 | iex
+```
 
 Manual Installation
 Prerequisites
 
     Python 3.8+
 
-    pip package manager
+```    pip package manager    ```
 
 Step-by-Step
 
     Clone the repository
-    bash
+  ```  bash
 
 git clone https://github.com/yourusername/anonai-cli.git
 cd anonai-cli
 
 Install dependencies
 bash
-
+```
 # Linux/macOS
-python3 -m pip install -r requirements.txt
+``` python3 -m pip install -r requirements.txt ```
 
 # Windows
-py -m pip install -r requirements.txt
+``` py -m pip install -r requirements.txt```
 
 Set your API key
-bash
+``` bash
 
 # Linux/macOS
 export OPENROUTER_API_KEY='your_key_here'
@@ -58,7 +59,7 @@ set OPENROUTER_API_KEY=your_key_here
 
 Run the CLI
 bash
-
+```
     # Linux/macOS
     python3 src/cli.py
 
